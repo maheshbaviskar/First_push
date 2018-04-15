@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.training.SDET_Assignment1.Guru99_Page">
+        <methods>
+          <include name="create_Account"/>
+          <include name="generate_Login_password"/>
+          <include name="automationSetup"/>
+          <include name="customsed_Statement"/>
+          <include name="create_Customer"/>
+          <include name="edit_Customer"/>
+        </methods>
+      </class> <!-- com.training.SDET_Assignment1.Guru99_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
