@@ -37,7 +37,7 @@ public class Guru99_Page {
 	public void automationSetup() throws Exception{
 		
 		
-		System.out.println("preset check completed");
+		System.out.println("preset check completed1");
 		oDriver = CommonLib.getDriver("ie");
 		//oDriver.get(sUrl);
 		Thread.sleep(15000);
